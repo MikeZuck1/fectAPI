@@ -1,0 +1,35 @@
+:root {
+    --color-main: #0000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #000;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    /* justify-content: center;  */
+}
+
+.content {
+    display: flex; 
+    flex-direction: column;
+}
+
+h1 {
+    margin-bottom: 2rem;
+    font-family: "roboto", sans-serif;
+    color: #fff;
+}
+
+input {
+    width: 10rem;
+    border: .3rem solid aqua;
+}
